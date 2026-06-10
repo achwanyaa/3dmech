@@ -3,7 +3,7 @@
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Environment, Stars } from '@react-three/drei'
 import { Suspense, ReactNode } from 'react'
-import { HeartModel } from './HeartModel'
+import { RealisticHeart } from './RealisticHeart'
 
 interface Canvas3DProps {
   children?: ReactNode
@@ -31,7 +31,7 @@ export function Canvas3D({ children }: Canvas3DProps) {
           
           {children}
           
-          {!children && <HeartModel />}
+          {!children && <RealisticHeart />}
           
           <OrbitControls 
             makeDefault 
