@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🫀 3D Anatomy Explorer
 
-## Getting Started
+**Welcome to the 3D Anatomy Explorer!** 
 
-First, run the development server:
+If you are a student, think of this app like **Google Earth, but for the human body.** 
 
+Normally, when you look at a 3D model of a heart, you can only see the outside. But the human body is much deeper than that! This app lets you explore anatomy through an "infinite zoom":
+
+1. **The Organ Level:** You start by looking at a full 3D heart.
+2. **The Tissue Level:** Click on the heart wall, and the camera zooms in to show you the muscle tissue (the Myocardium).
+3. **The Cell Level:** Click on the tissue, and you zoom in further to see a single heart cell (a Cardiomyocyte).
+4. **The Organelle Level:** Click on the cell, and you zoom right into its energy center (the Mitochondrion).
+
+At every level, you will see exactly what the structure does, what real microscope images of it look like (histology), and why it's important for medical exams.
+
+### 🚀 How to run this on your computer
+This project is built using Next.js and React Three Fiber (the tools that put the 3D models on the web).
+
+First, make sure you have installed the packages:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the 3D viewer!
