@@ -135,7 +135,7 @@ type GLTFResult = GLTF & {
 }
 
 export function Model(props: any) {
-  const { nodes, materials } = useGLTF('/scene.gltf') as GLTFResult
+  const { nodes, materials } = useGLTF('/v8_engine/scene.gltf') as unknown as GLTFResult
   return (
     <group {...props} dispose={null}>
       <group position={[-0.94, -0.797, 2.783]}>
@@ -254,4 +254,4 @@ export function Model(props: any) {
   )
 }
 
-useGLTF.preload('/scene.gltf')
+useGLTF.preload('/v8_engine/scene.gltf')
