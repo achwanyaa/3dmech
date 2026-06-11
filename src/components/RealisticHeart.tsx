@@ -19,7 +19,7 @@ type GLTFResult = GLTF & {
   materials: {
     Heart_Tex: THREE.MeshStandardMaterial
   }
-  animations: GLTFAction[]
+  animations: THREE.AnimationClip[]
 }
 
 export function RealisticHeart(props: JSX.IntrinsicElements['group']) {
