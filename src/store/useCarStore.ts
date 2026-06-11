@@ -18,16 +18,11 @@ export const CATEGORIES = [
 ];
 
 export const CARS: CarModel[] = [
-  { id: 'porsche_911', name: 'Porsche 911', category: 'Supercars', path: '/cars/porsche_911/scene.gltf', description: 'Iconic rear-engined sports car with timeless curves.', defaultColor: '#eab308' },
-  { id: 'lambo_huracan', name: 'Lamborghini Huracán', category: 'Supercars', path: '/cars/lambo_huracan/scene.gltf', description: 'V10 Italian exotic with sharp, aggressive geometry.', defaultColor: '#ef4444' },
-  { id: 'nissan_gtr', name: 'Nissan Skyline GT-R R34', category: 'JDM & Tuners', path: '/cars/nissan_gtr/scene.gltf', description: 'The legendary Godzilla of Japanese tuning.', defaultColor: '#3b82f6' },
-  { id: 'supra_mk4', name: 'Toyota Supra MK4', category: 'JDM & Tuners', path: '/cars/supra_mk4/scene.gltf', description: 'Iconic 2JZ powerhouse, famously featured in racing culture.', defaultColor: '#ffffff' },
-  { id: 'mustang_69', name: 'Ford Mustang 1969', category: 'Classics', path: '/cars/mustang_69/scene.gltf', description: 'The defining American muscle car of the late 60s.', defaultColor: '#000000' },
-  { id: 'delorean', name: 'DeLorean DMC-12', category: 'Classics', path: '/cars/delorean/scene.gltf', description: 'Stainless steel body panels and gull-wing doors. Time machine material.', defaultColor: '#a1a1aa' },
-  { id: 'cybertruck', name: 'Tesla Cybertruck', category: 'Electric', path: '/cars/cybertruck/scene.gltf', description: 'Ultra-hard 30X cold-rolled stainless-steel structural skin.', defaultColor: '#d4d4d8' },
-  { id: 'taycan', name: 'Porsche Taycan', category: 'Electric', path: '/cars/taycan/scene.gltf', description: 'Pure electric Porsche DNA with incredible acceleration.', defaultColor: '#22d3ee' },
-  { id: 'wrangler', name: 'Jeep Wrangler', category: 'Off-Road', path: '/cars/wrangler/scene.gltf', description: 'The ultimate go-anywhere, do-anything utility vehicle.', defaultColor: '#4ade80' },
-  { id: 'defender', name: 'Land Rover Defender', category: 'Off-Road', path: '/cars/defender/scene.gltf', description: 'Rugged British engineering designed for the toughest terrains.', defaultColor: '#94a3b8' }
+  { id: 'lambo_huracan', name: 'Lamborghini Huracán', category: 'Supercars', path: '/cars/lambo_huracan/source/2016_lamborghini_huracan.glb', description: 'V10 Italian exotic with sharp, aggressive geometry.', defaultColor: '#ef4444' },
+  { id: 'ferrari_f40', name: 'Ferrari F40 (1987)', category: 'Classics', path: '/cars/ferrari_f40/scene.gltf', description: 'The legendary twin-turbo V8 supercar from Maranello.', defaultColor: '#ef4444' },
+  { id: 'subaru_22b', name: 'Subaru Impreza 22B STi', category: 'JDM & Tuners', path: '/cars/subaru_22b/scene.gltf', description: 'The widebody rally icon.', defaultColor: '#1d4ed8' },
+  { id: 'supra_mk5', name: 'Toyota GR Supra', category: 'JDM & Tuners', path: '/cars/supra_mk5/scene.glb', description: 'Modern revival of the legendary Supra.', defaultColor: '#ffffff' },
+  { id: 'bmw_m4', name: 'BMW M4 GT3 (2022)', category: 'Supercars', path: '/cars/bmw_m4/scene.glb', description: 'Track-focused GT3 racing machine.', defaultColor: '#ffffff' }
 ];
 
 interface CarStore {
