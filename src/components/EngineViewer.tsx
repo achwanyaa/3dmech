@@ -38,11 +38,11 @@ export function EngineViewer() {
     groupRef.current.traverse((child) => {
       const orig = originalPositions.current.get(child);
       if (orig) {
-        // To explode, we push the part outwards relative to the center
-        // If it's already far, we push it further. If it's central, it stays relatively central.
-        const explodeVector = orig.clone().normalize().multiplyScalar(5);
-        const targetPos = isExploded ? orig.clone().add(explodeVector) : orig;
-        child.position.lerp(targetPos, 0.05);
+        // The original Sketchfab model is "disassembled". 
+        // We consider (0,0,0) to be the fully "assembled" position.
+        const assembledPos = new THREE.Vector3(0, 0, 0);
+        const targetPos = isExploded ? orig : assembledPos;
+        child.position.lerp(targetPos, 0.025); // Smoother, slower lerp
       }
       
       // Highlight focused part
