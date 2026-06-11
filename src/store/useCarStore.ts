@@ -22,7 +22,12 @@ export const CARS: CarModel[] = [
   { id: 'ferrari_f40', name: 'Ferrari F40 (1987)', category: 'Classics', path: '/cars/ferrari_f40/scene.gltf', description: 'The legendary twin-turbo V8 supercar from Maranello.', defaultColor: '#ef4444' },
   { id: 'subaru_22b', name: 'Subaru Impreza 22B STi', category: 'JDM & Tuners', path: '/cars/subaru_22b/scene.gltf', description: 'The widebody rally icon.', defaultColor: '#1d4ed8' },
   { id: 'supra_mk5', name: 'Toyota GR Supra', category: 'JDM & Tuners', path: '/cars/supra_mk5/scene.glb', description: 'Modern revival of the legendary Supra.', defaultColor: '#ffffff' },
-  { id: 'bmw_m4', name: 'BMW M4 GT3 (2022)', category: 'Supercars', path: '/cars/bmw_m4/scene.glb', description: 'Track-focused GT3 racing machine.', defaultColor: '#ffffff' }
+  { id: 'bmw_m4', name: 'BMW M4 GT3 (2022)', category: 'Supercars', path: '/cars/bmw_m4/scene.glb', description: 'Track-focused GT3 racing machine.', defaultColor: '#ffffff' },
+  { id: 'mclaren_p1', name: 'McLaren P1', category: 'Supercars', path: '/cars/mclaren_p1/scene.gltf', description: 'Hybrid hypercar with stunning aerodynamics.', defaultColor: '#eab308' },
+  { id: 'bugatti_tourbillon', name: 'Bugatti Tourbillon (2026)', category: 'Supercars', path: '/cars/bugatti_tourbillon/scene.gltf', description: 'The ultimate V16 masterpiece.', defaultColor: '#000000' },
+  { id: 'hoonicorn', name: 'Ford Mustang Hoonicorn', category: 'Classics', path: '/cars/hoonicorn/scene.gltf', description: 'Ken Block\'s 1400hp AWD drift monster.', defaultColor: '#000000' },
+  { id: 'purosangue', name: 'Ferrari Purosangue (2023)', category: 'Off-Road', path: '/cars/purosangue/scene.gltf', description: 'The first-ever four-door Ferrari.', defaultColor: '#ef4444' },
+  { id: 'amg_gt3', name: 'Mercedes-AMG GT3 Evo', category: 'Supercars', path: '/cars/amg_gt3/scene.glb', description: 'The beast of the Nürburgring.', defaultColor: '#64748b' }
 ];
 
 interface CarStore {
